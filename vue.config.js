@@ -1,9 +1,16 @@
 module.exports = {
-  //github-action
-  publicPath:
-    process.env.NODE_ENV === "production"
-      ? "/" + process.env.CI_PROJECT_NAME + "/"
-      : "/",
+  //pwa
+  pwa: {
+    workboxOptions: {
+      exclude: [/_redirects/],
+    },
+  },
+
+  //   //github-action
+  //   publicPath:
+  //     process.env.NODE_ENV === "production"
+  //       ? "/" + process.env.CI_PROJECT_NAME + "/"
+  //       : "/",
 
   //tracis-ci
   //   publicPath: "/",
