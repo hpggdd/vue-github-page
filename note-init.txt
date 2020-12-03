@@ -1,2 +1,9 @@
 //github-mail
 hpggdd@gmail.com
+
+//gem-install
+sudo apt install ruby-full
+https://stackoverflow.com/questions/37720892/you-dont-have-write-permissions-for-the-var-lib-gems-2-3-0-directory
+
+//vue-deploy
+https://cli.vuejs.org/guide/deployment.html#gitlab-pages
